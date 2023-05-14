@@ -1,0 +1,46 @@
+﻿body {
+	margin:0;
+	text-align:center;
+}
+
+	body button {
+		cursor:pointer;
+		margin:40px 0 0 0;
+	}
+
+.popup {
+	position: absolute;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	display:none;
+}
+
+	.popup_bg {
+		background:rgba(0,0,0,0.4);
+		position:absolute;
+		z-index:1;
+		height:100%;
+		width:100%;
+	}
+	
+	
+	.form {
+		position: relative;
+		margin:4px auto;
+		z-index:2;
+		width:200px;
+		padding:40px 20px;
+		background:#FFFFFF;
+		border:1px solid #666666;
+		border-radius:20px;
+		box-shadow:0 0 2px rgba(0,0,0,0.5);
+	}
+
+		.form input {
+			width:96%;
+			padding:5px 2%;
+			margin:10px 0;
+			border-radius:4px;
+		}
